@@ -28,11 +28,11 @@ android {
     if (agpVersion.tokenize('.')[0].toInteger() >= 7) {
         namespace "com.sensors"
     }
-    compileSdkVersion safeExtGet('compileSdkVersion', 23)
+    compileSdkVersion safeExtGet('compileSdkVersion', 33)
 
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 23)
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         ndk {
